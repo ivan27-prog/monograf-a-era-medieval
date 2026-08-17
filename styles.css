@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*? Textos y colores*/
+.nvar-personalized {
+    background-color: #121212 !important;
+    border-bottom: 2px solid #d4af37;
+    position: sticky;  /* Cumple con el requisito de position */
+    top: 0;
+    z-index: 1000;
+}
+
+.nvar-personalized .breadcrumb a {
+    color: #d4af37 !important;
+    text-decoration: none;
+}
+
+.nvar-personalized .breadcrumb-item.active a {
+    color: #ffffff !important;
+}
+
+/*? CARDS*/
+.titulo-seccion {
+    color: #d4af37; /* Dorado */
+    border-bottom: 2px solid #8b0000; /* Borde rojo */
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.card-medieval {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    border: 1px solid #d4af37;  /* Borde dorado */
+    color: #ffffff;
+}
+
+.card-medieval .card-title {
+    color: #d4af37; /* Título dorado */
+}
+
+.card-medieval .card-text {
+    color: #e0e0e0;
+}
+
+/*? Cambiar tamaño img*/
+.img-medieval {
+    width: 100%;
+    height: 310px;
+    object-fit: contain;     /* Muestra la imagen completa sin recortar nada */
+    background-color: #0d0d0d; /* Relleno oscuro de fondo */
+    padding: 8px;            /* Espacio interno para que respire la imagen */
+    border-bottom: 1px solid #d4af37;
+}
+
+/*? Estilo de Carousel*/
+/*? CAROUSEL */
+.carousel-medieval {
+    border: 2px solid #d4af37; /* Marco dorado */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img-carousel {
+    height: 420px;
+    object-fit: cover;
+    background-color: #0d0d0d;
+}
+
+.caption-medieval {
+    background-color: rgba(18, 18, 18, 0.75); /* Fondo negro semitransparente para legibilidad */
+    border-left: 3px solid #8b0000;          /* Acento rojo */
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.caption-medieval h5 {
+    color: #d4af37; /* Título dorado */
+}
+
+.carousel-indicators [data-mdb-target] {
+    background-color: #d4af37; /* Indicadores dorados */
+}
+
+
+/*? footer*/
+/*? FOOTER */
+.footer-medieval {
+    background-color: #0d0d0d;
+    border-top: 2px solid #d4af37;
+}
+
+.copyright-box {
+    background-color: #050505;
+    color: #a0a0a0;
+    border-top: 1px solid #1a1a1a;
+}
